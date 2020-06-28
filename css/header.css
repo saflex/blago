@@ -1,0 +1,195 @@
+@font-face {
+    font-family: 'Monotype Corsiva';
+    src: url('../fonts/MonotypeCorsiva.eot');
+    src: url('../fonts/MonotypeCorsiva.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MonotypeCorsiva.woff') format('woff'),
+        url('../fonts/MonotypeCorsiva.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+
+.left-abs-area {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.left-abs-area .logo {
+    width: 254px;
+    height: 70px;
+    background: aliceblue;
+    margin-top: 10px;
+}
+
+.right-abs-area {
+    position: absolute;
+    right: 0;
+    width: 345px;
+    top: 31px;
+    z-index: 2;
+}
+
+.right-abs-area .phone-nav {
+    float: right;
+    color: #fff;
+    text-align: right;
+}
+
+.right-abs-area a {
+    float: right;
+    margin-right: 50px;
+    background: rgba(0, 0, 0, 0.25);
+    display: block;
+    padding: 5px 10px;
+    color: #fff;
+    text-decoration: underline;
+    border-radius: 3px;
+    text-transform: none;
+    margin-top: 17px;
+    padding-bottom: 7px;
+}
+
+.right-abs-area a:hover {
+    text-decoration: none;
+}
+
+header nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    display: block;
+    font-size: 0;
+    margin-top: 35px;
+}
+
+header nav li {
+    padding: 10px 4px;
+    margin: 0 0px;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header {
+    background: #eee;
+    width: 100%;
+    padding: 40px;
+}
+
+header h1 {
+    text-align: center;
+    margin-top: 55px;
+    margin-bottom: 25px;
+    color: #fff;
+    font-family: 'Monotype Corsiva', georgia;
+    font-size: 40px;
+}
+
+
+.krug-main-area {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    background: rgba(0, 0, 0, 0.55);
+    border-radius: 150px;
+    padding-top: 29px;
+    color: #fff;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 11px;
+}
+
+header h2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+header a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 8px 8px;
+    border-radius: 4px;
+}
+
+header a:hover,
+header a:focus {
+    color: #fff;
+}
+
+nav .active {
+    background: #F7CA2E;
+    display: block;
+    color: #1a1a1a;
+    text-decoration: none;
+}
+
+
+.phone-nav p {
+    font-size: 22px;
+}
+
+.phone-nav p:before {
+    content: '';
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    background: url(../img/tel.png) 0 0 no-repeat;
+    margin-left: -32px;
+    margin-top: 5px;
+}
+
+.ft-block {
+    padding-bottom: 50px;
+}
+
+
+.braed-area {
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 80px;
+}
+
+.braed-area a {
+    text-transform: none;
+}
+
+.braed-area span {
+    margin-left: 8px;
+}
+
+
+header {
+    background: url(../img/bg.jpg) 0 0 no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.left-abs-area .logo {
+    background: url(../img/logo.png) 0 0 no-repeat;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    opacity: 0.8;
+}
+
+header h2 {
+    font-size: 28px;
+}
+
+header h2 a {
+    font-size: 28px;
+    text-decoration: none;
+}

@@ -1,0 +1,14 @@
+/* Блоки и секции */
+@import "bootstrap.css";
+@import "header.css";
+@import "section-main.css";
+@import "footer.css";
+/* Общие стили */
+@import "reset.css";
+@import "style.css";
+@import "media.css";
+/* Стили для шрифтов */
+@import "../fonts/GothamPro/GothamPro-Bold/stylesheets.css";
+@import "../fonts/GothamPro/GothaProLig/stylesheets.css";
+@import "../fonts/GothamPro/GothamPro-Medium/stylesheets.css";
+@import "../fonts/Open-Sans/stylesheets.css";

@@ -1,0 +1,524 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    position: relative;
+    min-height: 100%;
+}
+
+
+.content {
+    padding-bottom: 134px;
+}
+
+
+
+.container {
+    position: relative;
+}
+
+
+.mp-area-h3:before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 19px;
+    background: url(../img/bs1.png) 0 0 no-repeat;
+    margin-left: -124px;
+    margin-top: 7px;
+}
+
+.mp-area-h3:after {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 19px;
+    background: url(../img/bs2.png) 0 0 no-repeat;
+    margin-left: 24px;
+    margin-top: 7px;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 25px;
+    letter-spacing: 1px;
+    font-size: 19px;
+}
+
+h3.half-line-h3 {
+    text-align: left;
+    display: table-cell;
+    background: #fff;
+    position: relative;
+    z-index: 3;
+    white-space: nowrap;
+}
+
+.sp-h3-area {
+    position: relative;
+    display: table;
+}
+
+.sp-line {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    margin-top: 0;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 25px;
+}
+
+.sp-line span {
+    height: 0.15em;
+    background: #BEBEBE;
+    width: 100%;
+    display: block;
+}
+
+.sp-line span:before {
+    width: 15px;
+    height: 17px;
+    position: absolute;
+    content: '';
+    background: url(../img/ik.png) 0 0 no-repeat;
+    margin-top: -7px;
+    margin-left: -10px;
+}
+
+.bar-blk {
+    height: 9px;
+    background: #E3E3E3;
+}
+
+
+.yellow {
+    background: #E3B529;
+}
+
+.blue {
+    background: #2D63EB;
+}
+
+.red {
+    background: #B2121A;
+}
+
+.in-blk {
+    height: 9px;
+}
+
+.w50 {
+    width: 50%;
+    float: left;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+.navbar-brand {
+    width: 150px;
+    height: 46px;
+    background: url(../img/logo.png) 0 0 no-repeat;
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+p {
+    line-height: 1.4em;
+    color: #656565;
+}
+
+.section-main h4.podz-h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 36px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.pagination>li>a,
+.pagination>li>span {
+    position: relative;
+    float: left;
+    padding: 3px 7px;
+    line-height: 1.42857143;
+    text-decoration: none;
+    color: #333;
+    background-color: #fff;
+    border: 0;
+    margin-left: -1px;
+    font-size: 19px;
+    font-weight: 100;
+}
+
+
+.pagination>li>a:hover,
+.pagination>li>span:hover,
+.pagination>li>a:focus,
+.pagination>li>span:focus {
+    background: none;
+    border: 0;
+    color: #F5CA2E;
+}
+
+
+.pagination>li .active {
+    z-index: 2;
+    color: #1a1a1a;
+    background-color: #F5CA2E;
+    border-color: #F5CA2E;
+}
+
+.pagg-area {
+    width: 253px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    clear: both;
+}
+
+.bbo {
+    font-weight: normal;
+}
+
+.nsb:before {
+    content: '';
+    width: 5px;
+    height: 10px;
+    background: #fff;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 4px;
+}
+
+.nsb2:before {
+    content: '';
+    width: 5px;
+    height: 10px;
+    background: #fff;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+a.bbo.nsb,
+a.bbo.nsb2 {
+    padding: 3px 2px;
+}
+
+
+header a.active:hover,
+header a.active:focus {
+    color: #1a1a1a;
+}
+
+
+@media (min-width: 1280px) {
+    .container {
+        width: 1240px;
+    }
+}
+
+
+
+
+
+
+
+
+
+.effects .img img {
+    display: block;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    height: auto;
+}
+
+.overlay {
+    display: block;
+    position: absolute;
+    z-index: 20;
+    background: rgba(74, 119, 233, 0.74);
+    overflow: hidden;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+a.close-overlay {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 45px;
+    text-align: center;
+    background-color: #1a1a1a;
+    cursor: pointer;
+}
+
+a.close-overlay.hidden {
+    display: none;
+}
+
+a.expand {
+    display: block;
+    position: absolute;
+    z-index: 100;
+    width: 60px;
+    height: 60px;
+    border: solid 5px #fff;
+    text-align: center;
+    color: #fff;
+    line-height: 50px;
+    font-weight: 700;
+    font-size: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border-radius: 30px;
+}
+
+/* ============================================================
+  EFFECT 1 - SLIDE IN BOTTOM
+============================================================ */
+#effect-1 .overlay {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 0;
+}
+
+#effect-1 .overlay a.expand {
+    left: 0;
+    right: 0;
+    bottom: 50%;
+    margin: 0 auto -30px auto;
+}
+
+#effect-1 .img.hover .overlay {
+    height: 100%;
+}
+
+/* ============================================================
+  EFFECT 2 - SLIDE IN TOP
+============================================================ */
+#effect-2 .overlay {
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 0;
+}
+
+#effect-2 .overlay a.expand {
+    left: 0;
+    right: 0;
+    top: 50%;
+    margin: -30px auto 0 auto;
+}
+
+#effect-2 .img.hover .overlay {
+    height: 100%;
+}
+
+/* ============================================================
+  EFFECT 3 - SLIDE IN LEFT
+============================================================ */
+#effect-3 .overlay {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+}
+
+#effect-3 .overlay a.expand {
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin: auto 0 auto -30px;
+}
+
+#effect-3 .img.hover .overlay {
+    width: 100%;
+}
+
+/* ============================================================
+  EFFECT 4 - SLIDE IN RIGHT
+============================================================ */
+#effect-4 .overlay {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 100%;
+}
+
+#effect-4 .overlay a.expand {
+    top: 0;
+    bottom: 0;
+    right: 50%;
+    margin: auto -30px auto 0;
+}
+
+#effect-4 .img {
+    overflow: hidden;
+}
+
+#effect-4 .img.hover .overlay {
+    width: 100%;
+}
+
+/* ============================================================
+  EFFECT 6 - ICON BOUNCE IN
+============================================================ */
+.effect-5 .overlay {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+}
+
+.effect-5.overlay a.expand {
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 0 auto;
+    opacity: 0;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.effect-5 .img.hover .overlay {
+    opacity: 1;
+}
+
+.effect-5 .img.hover .overlay a.expand {
+    top: 50%;
+    margin-top: -30px;
+    opacity: 1;
+}
+
+/* ============================================================
+  EFFECT 6 - ICON BOUNCE IN
+============================================================ */
+#effect-6 .overlay {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+}
+
+#effect-6 .overlay a.expand {
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 0 auto;
+    opacity: 0;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+#effect-6 .img.hover .overlay {
+    opacity: 1;
+}
+
+#effect-6 .img.hover .overlay a.expand {
+    top: 50%;
+    margin-top: -30px;
+    opacity: 1;
+}
+
+
+.overlay .button {
+    width: 177px;
+    height: 35px;
+    background: none;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 13px;
+    border: 3px solid #fff;
+    text-transform: uppercase;
+    display: block;
+    border-radius: 4px;
+    padding: 10px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+
+    margin-top: 48px;
+    letter-spacing: 0.1em;
+    position: absolute;
+    top: 50%;
+    margin-top: -17px;
+    left: 50%;
+    margin-left: -88px;
+}
+
+.overlay .button:hover {
+    width: 177px;
+    height: 35px;
+    background-color: #FFF;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    color: #2b58cd;
+    font-size: 13px;
+    text-transform: uppercase;
+    display: block;
+    border-radius: 4px;
+    padding: 10px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+
+    margin-top: 48px;
+    letter-spacing: 0.1em;
+    position: absolute;
+    top: 50%;
+    margin-top: -17px;
+    left: 50%;
+    margin-left: -88px;
+}
+
+.w50 a {
+    text-decoration: none;
+}

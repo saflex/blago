@@ -1,0 +1,141 @@
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 134px;
+  background: #10389A;
+}
+
+.logo-footer {
+    width: 247px;
+    float: left;
+    background: url(../img/logo-foot.png) 0 0 no-repeat;
+    height: 90px;
+    margin-top: 10px;
+    margin-right: 48px;
+}
+
+.ult-block{
+	float: left;
+}
+
+
+.ult-block a {
+    color: #fff;
+    margin-bottom: 6px;
+    display: block;
+    margin-right: 35px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.ult-block ul {
+    margin-top: 53px;
+}
+
+.socials-area {
+    float: left;
+}
+
+.soc1, .soc2, .soc3 {
+    float: left;
+    width: 26px;
+    height: 30px;
+    background: #fff;
+    margin-right: 10px;
+    margin-top: 53px;
+}
+
+.foot-float-right a{
+	float: right;
+	background: #285FF0;
+	display: block;
+	border-radius: 10px;
+	padding: 10px;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none !important; 
+}
+
+
+.foot-float-right a {
+    float: right;
+    background: #285FF0;
+    display: block;
+    border-radius: 4px;
+    padding: 10px 20px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    font-size: 12px;
+    font-weight: bold;
+    border-bottom: 3px solid #0f2f86;
+    margin-top: 48px;
+    letter-spacing: 0.1em;
+}
+
+
+.foot-float-right a:hover{
+	background: #E3B529;
+	color: #1a1a1a;
+	border-bottom: 3px solid #9a7607;
+}
+
+
+.socials-area {
+    float: left;
+    margin-left: 20px;
+}
+
+
+
+.foot-right-tels {
+    float: right;
+    text-align: right;
+    color: #fff;
+    max-width: 222px;
+    margin-right: 20px;
+    position: absolute;
+    right: 165px;
+}
+
+.foot-right-tels span {
+    display: block;
+    clear: both;
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: 4px;
+}
+
+.foot-right-tels p {
+    font-weight: bold;
+    font-size: 23px;
+    margin-top: 39px;
+    color: #fff;
+}
+
+.bel-abs {
+    color: #fff;
+    text-decoration: underline;
+    font-size: 11px;
+    margin-right: 15px;
+    display: block;
+    margin-top: 15px;
+    position: absolute;
+    right: 0;
+    bottom: 5px;
+}
+
+.bel-abs:hover, .bel-abs:focus{
+	color: #fff;
+	text-decoration: none;
+}
+
+.logo-footer p {
+    color: #fff;
+    margin-top: 96px;
+    font-size: 11px;
+}
